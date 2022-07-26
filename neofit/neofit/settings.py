@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'neofit.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\azamat.jumagulov\Desktop\Раб стол 09-02-2022\Python_project_1\projects\neofit\neofit\news\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
