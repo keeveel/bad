@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from . import models
 
 # Create your views here.
 
@@ -6,7 +7,7 @@ from django.shortcuts import render
 def index(request):
     data = {
         'title': 'Главная страница',
-        'values': ['Some', 'Hello', '123']
+        'values': ['Hello', 'Student'],
     }
     return render(request, 'main/index.html', data)
 
