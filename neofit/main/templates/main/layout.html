@@ -1,5 +1,4 @@
 {% load static %}
-<!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +20,7 @@
             <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i> Про нас</li></a>
             <a href="{% url 'news_home' %}"><li><i class="fas fa-bullhorn"></i> Новости</li></a>
             <a href=""><li><i class="fas fa-paper-plane"></i> Контакты</li></a>
+            <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить запись</button></li></a>
         </ul>
     </aside>
     <main>
