@@ -24,9 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'hackerazamatpe63^b8p41oj(xp-avl2!^ywm_fm+b&j9su3)_i16ole-f0)9x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'keeveel.pythonanywhere.com'
+]
 
 
 # Application definition
